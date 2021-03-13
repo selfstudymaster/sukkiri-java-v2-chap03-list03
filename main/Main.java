@@ -15,6 +15,7 @@ package main;
 //	}
 //}
 
+
 //list03-02
 // 実行すると無限ループになるのでCtrl C で強制終了
 //public class Main {
@@ -24,9 +25,11 @@ package main;
 //		while (doorClose == true) {
 //			System.out.println("ノックする");
 //			System.out.println("1分待つ");
+//			break; // 書き忘れると無限ループでエラーになる
 //		}
 //	}
 //}
+
 
 //list03-03は省略(内容は{}の省略)
 
@@ -117,7 +120,9 @@ package main;
 // list03-09 for文で九九の表を出力
 //public class Main {
 //	public static void main(String[] args) {
+//		// i = 1, 2, 3, 4, 5, 6, 7, 8, 9と増えていく
 //		for (int i = 1; i < 10; i++) {
+//
 //			// j = 1, 2, 3, 4, 5, 6, 7, 8, 9まで来た後に上のfor文に戻る
 //			for (int j = 1; j < 10; j++) {
 //				System.out.println(i * j);
@@ -127,6 +132,7 @@ package main;
 //		}
 //	}
 //}
+
 
 // break文, continue文, 無限ループ
 
@@ -190,6 +196,7 @@ package main;
 //		}
 //	}
 //}
+
 
 //practice03-06
 public class Main {
